@@ -165,7 +165,7 @@
 }
 
 .feynman{
-  height:890px;
+  min-height:890px;
   background-color: #f2f2f2;
   position: relative; 
   background-blend-mode: multiply;
@@ -260,16 +260,18 @@
   background-color: #1f1f1f;
   color: white;
   padding-bottom: 40px;
+  padding-top: 60px;
+  display: flex;
+  align-items: stretch;
 }
 
 .footer__columns{
   width: 90%;
   margin: 0 auto;
   background-color: #1f1f1f;
-  padding-top: 60px;
   display: flex;
   justify-content: space-between;
-  height: 250px;
+  height: auto;
 }
 
 .footer__column_content_copyright{
@@ -315,6 +317,7 @@
 
 .footer__social-icon{
   width: 16px;
+  height: 16px;
   padding-right: 10px;
 }
 
