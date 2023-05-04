@@ -1,0 +1,12 @@
+.cards {
+  width: 920px;
+  margin: 0 auto;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 240px 100px 240px 100px 240px;
+  grid-template-columns: repeat(3, 240px);
+  -webkit-column-gap: 100px;
+  -moz-column-gap: 100px;
+  column-gap: 100px;
+}

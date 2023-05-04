@@ -1,9 +1,15 @@
-.header{
-    height: 100vh;
-    min-height: 600px;
-    max-height: 756px;
-    background-color: #f2f2f2;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-  }
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  overflow: hidden;
+}

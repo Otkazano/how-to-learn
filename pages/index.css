@@ -11,6 +11,8 @@
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo_place_header/logo_place_header.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/rotation/rotation.css);
 
 /* header */
 @import url(../blocks/header/header.css);
@@ -25,6 +27,35 @@
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
+@import url(../blocks/description/description.css);
+
+/* techniques */
+@import url(../blocks/techniques/techniques.css);
+
+/* cards */
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+
+/* video */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/oakley/oakley.css);
+
+/* khan */
+@import url(../blocks/khan/kahn.css);
+@import url(../blocks/khan/__container/kahn__container.css);
+@import url(../blocks/khan/__author/kahn__author.css);
+@import url(../blocks/khan/__book-container/kahn__book-container.css);
+@import url(../blocks/khan/__book-pic/kahn__book-pic.css);
+@import url(../blocks/khan/__buy-link/kahn__buy-link.css);
+@import url(../blocks/khan/__quote-author-subline/kahn__quote-author-subline.css);
+@import url(../blocks/khan/__quote-author/kahn__quote-author.css);
+@import url(../blocks/khan/__quote/kahn__quote.css);
+@import url(../blocks/khan/__title/kahn__title.css);
 
 /* digits */
 @import url(../blocks/digits/digits.css);
