@@ -84,6 +84,9 @@
           <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/hfcSMqHms-U" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
           <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
@@ -231,6 +234,33 @@
           <a href="#" class="link"><img src="images/logo/resources-polka.svg" alt="Полка" class="resources__logo"></a>
         </div>
       </section>
+
+      <section class="feedback">
+        <h2 class="section-title">Расскажите свою историю!</h2>
+        <p class="section-subtitle">Поделитесь своим методом борьбы с ленью, а мы его опубликуем.</p>
+
+        <form class="form" action="#" method="post">
+            <input type="text" name="name" class="form__item form__item_el_name" placeholder="Иван Иванович" required autocomplete="off">
+            <input type="email" name="email" class="form__item form__item_el_email" placeholder="hello@example.com" required autocomplete="off">
+
+            <div class="form__option">
+              <label class="form__label">
+                <input type="radio" name="color" id="black"> Добавить чёрный фон
+              </label>
+              <label class="form__label">
+                <input type="radio" name="color" id="white"> Добавить белый фон
+              </label>
+              <label class="form__label">
+                <input type="radio" name="color" id="grey"> Добавить серый фон 
+              </label>
+            </div>
+
+            <textarea name="textarea" class="form__item form__item_el_textarea" placeholder="Совет" required autocomplete="off"></textarea>    
+            <input type="submit" value="ОТПРАВИТЬ" class="form__item_el_button ">
+        </form>
+
+      </section>
+
     </main>
 
     <footer class="footer">

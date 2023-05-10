@@ -1,0 +1,4 @@
+.form__option {
+    -ms-grid-column-span: 2;
+    grid-column: span 2;
+}

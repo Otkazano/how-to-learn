@@ -1,0 +1,14 @@
+.form__item {
+    outline-color: #2f80ed;
+    border-radius: 6px;
+    -webkit-transition: -webkit-box-shadow 0.7s linear;
+    transition: -webkit-box-shadow 0.7s linear;
+    -o-transition: box-shadow 0.7s linear;
+    transition: box-shadow 0.7s linear;
+    transition: box-shadow 0.7s linear, -webkit-box-shadow 0.7s linear;
+}
+
+.form__item:hover {
+    -webkit-box-shadow: 0 0 5px 5px #999;
+    box-shadow: 0 0 5px 5px #999;
+}
